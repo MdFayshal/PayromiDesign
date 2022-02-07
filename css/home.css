@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;800&family=Roboto+Slab:wght@400;600;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 *{
   font-family: 'Almarai', sans-serif;
-  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   height: auto;
@@ -149,7 +148,7 @@
   .banner {
     background-color: #f5e6e8;
     height: 440px;
-    font-family: Roboto;
+     font-family: 'Almarai', sans-serif;
     font-style: normal;
   }
   
@@ -182,18 +181,32 @@
     margin-top: 45px;
     background-color: #192a51;
     border-radius: 15px 33px 0px 0px;
+    height: 120px;
   }
   .media img{
-    font-size: 42px;
-    color: #7fff00;
+    width: 59px;
+    height: 56px;
   }
   .media-title{
-    font-size: 36px;
-    padding-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37.4589px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
   }
   .media-text{
-    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.3467px;
+    line-height: 16px;
+    margin-top:10px;
+    
+    color: #FFFFFF;
   }
+  
   /* -----EasySetup----- */
   .easysetup{
     padding-top: 45px;
@@ -248,7 +261,29 @@
   .htobuy h2.title{
     padding-top: 80px;
   }
+  .htb-title{
+     font-family: 'Almarai', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 47px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+      }
+  .htb-text{
+     font-family: 'Almarai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+  }
   /* ----------card-------- */
+  .card{
+    height: 215px;
+  }
   .card-body {
     flex: 0 0 auto;
     padding: 13px 5px;
@@ -325,6 +360,15 @@
     margin:0 30px;
     border-radius: 0 50px 0 0;
   }
+  .htb-title{
+   letter-spacing: 0em;
+   padding-left: 14px;
+   
+     }
+ .htb-text{
+   letter-spacing: 0em;
+   padding-left: 14px;
+ }
   /* card */
   .card-body {
     flex: 0 0 auto;
@@ -356,7 +400,10 @@
   /* =========================================================  Media Query max-width: 991px =============================================================== */
   @media only screen and (max-width: 991px) {
 
-
+    /* ---- Service  ---- */
+    .deliveryservice {
+      margin-top: 40px;
+  }
   /* -----EasySetup----- */
 
   .easysetup h1 {
@@ -392,6 +439,13 @@
     padding: 5px;
     margin:0 auto;
     border-radius: 0 50px 0 0;
+  }
+  .htb-title{
+    padding: 10px;
+    
+      }
+  .htb-text{
+    padding: 10px;
   }
   /* card */
 
@@ -530,7 +584,7 @@
   /*========= end Model ==========*/
   /* -------Banner Section------ */
   .banner .row {
-    padding-top: 30px;
+    padding-top: 10px;
   }
   .banner {
  
@@ -620,6 +674,19 @@
   .htobuy h2.title{
     padding-top: 0px;
   }
+  .htb-title{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+ 
+     }
+ .htb-text{
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+ }
   /* ----------card-------- */
   .card{
     margin: 8px ;

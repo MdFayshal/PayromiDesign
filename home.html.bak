@@ -15,7 +15,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--  CSS -->
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/buy.css">
     <title>PayRomi</title>
 </head>
 
@@ -75,36 +74,40 @@
                         <div class="media p-2 text-light">
                             <div class="d-flex align-content-between">
                                 <img src="Images/carbon_shopping-cart-arrow-down.png" alt="">
-                                <div class="media-title">Order</div>
+                                <div class="media-title fs-3">Order</div>
                             </div>
-                            <div class="media-text">Order Your product at any online store</div>
+                            <div class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                                deleniti.</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 ">
                         <div class="media p-2 text-light">
                             <div class="d-flex align-content-between">
                                 <img src="Images/carbon_shopping-cart-arrow-down.png" alt="">
-                                <div class="media-title">Deliver</div>
+                                <div class="media-title fs-3">Order</div>
                             </div>
-                            <div class="media-text">Product will delivered to your door step</div>
+                            <div class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                                deleniti.</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 ">
                         <div class="media p-2 text-light">
                             <div class="d-flex align-content-between">
                                 <img src="Images/carbon_shopping-cart-arrow-down.png" alt="">
-                                <div class="media-title">Keep</div>
+                                <div class="media-title fs-3">Order</div>
                             </div>
-                            <div class="media-text">Ensure if the product meets your expectation</div>
+                            <div class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                                deleniti.</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 ">
                         <div class="media p-2 text-light">
                             <div class="d-flex align-content-between">
                                 <img src="Images/carbon_shopping-cart-arrow-down.png" alt="">
-                                <div class="media-title">Pay</div>
+                                <div class="media-title fs-3">Order</div>
                             </div>
-                            <div class="media-text">Pay with PayRomi payment method</div>
+                            <div class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                                deleniti.</div>
                         </div>
                     </div>
                 </div>
@@ -131,9 +134,9 @@
     <section class="htobuy mb-5 " id="outer">
         <div class="container " id="inner">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 text-light text-center mt-xlg-5 py-5 ">
-                    <h2 class="htb-title mt-5 pl-3">How to Buy with PayRomi</h2>
-                    <p class=" htb-text mt-4 pl-3 ">Its easy to shopping with PayRomi at your favorite stores online or
+                <div class="col-lg-6 col-md-12 col-sm-12 text-light text-center pt-5">
+                    <h2 class="title">How to Buy with PayRomi</h2>
+                    <p class="text ">Its easy to shopping with PayRomi at your favorite stores online or
                         in-store. You’ll see us at checkout or apply for PayRomi card in the PayRomi app. A
                         virtual card will generated in your PayRomi app.
                     </p>
@@ -146,9 +149,11 @@
                                     <div class="card text-dark bg-light ">
                                         <div class="card-body">
 
-                                            <img src="Images/Buy.png" alt="">
-                                            <h5 class="card-title">Go shopping</h5>
-                                            <p class="card-text">Find out your faviroite store and product in PayRomi app or store associated with us.</p>
+                                            <img src="Images/Card Payment.png" alt="">
+                                            <h5 class="card-title">Product you like</h5>
+                                            <p class="card-text">Check your product as your requrement . Make
+                                                your payment with PayRomi felixible Payment mehtod
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -156,9 +161,11 @@
                                     <div class="card text-dark bg-light">
                                         <div class="card-body">
 
-                                            <img src="Images/In Transit.png" alt="">
-                                            <h5 class="card-title">Delivery to step</h5>
-                                            <p class="card-text">Fastest delivery of your product to your door step.</p>
+                                            <img src="Images/Card Payment.png" alt="">
+                                            <h5 class="card-title">PayRomi payment</h5>
+                                            <p class="card-text">There are 4 types of payment method you can
+                                                choose instant, weekly, Bi-weekly in 6 weeks . No credit check.
+                                                NO interest fee.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -170,9 +177,10 @@
                                     <div class="card text-dark bg-light">
                                         <div class="card-body">
 
-                                            <img src="Images/Trust.png" alt="">
+                                            <img src="Images/Card Payment.png" alt="">
                                             <h5 class="card-title">Product you like</h5>
-                                            <p class="card-text">Check your product as your requrement . Make your payment with PayRomi felixible Payment mehtod</p>
+                                            <p class="card-text">Check your product as your requrement . Make
+                                                your payment with PayRomi felixible Payment mehtod</p>
                                         </div>
                                     </div>
                                 </div>
@@ -182,7 +190,9 @@
 
                                             <img src="Images/Card Payment.png" alt="">
                                             <h5 class="card-title">PayRomi payment</h5>
-                                            <p class="card-text">There are 4 types of payment method you can choose instant,  weekly, Bi-weekly in 6 weeks . No credit check. NO interest fee. </p>
+                                            <p class="card-text">There are 4 types of payment method you can
+                                                choose instant, weekly, Bi-weekly in 6 weeks . No credit check.
+                                                NO interest fee.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -192,6 +202,7 @@
                 </div>
             </div>
         </div>
+
     </section>
 
 
@@ -248,8 +259,8 @@
 
                     <!-- Modal Header -->
                     <div class="mhead">
-                        <a type="button" class=" d-flex float-end m-2 p-2" data-bs-dismiss="modal"><img
-                                class=" img-fluid" src="Images/close.png" alt=""></a>
+                        <a type="button" class=" d-flex float-end m-2 p-2" data-bs-dismiss="modal"><img class=" img-fluid"
+                                src="Images/close.png" alt=""></a>
                         <h4 class="login-model-name text-center py-2 mt-2">PayRomi</h4>
 
                     </div>
@@ -264,8 +275,7 @@
                                 <input type="password" class="form-control mb-2" placeholder="Password" value="">
                                 <span class="lowlabel float-end mb-4">Forget password </span>
                                 <button type="submit" class="btn btn-primary form-control mb-2">Login</button>
-                                <span type="button" data-bs-toggle="modal" data-bs-target="#signup"
-                                    class="lowlabel float-end"> Create a new account </span>
+                                <span type="button" data-bs-toggle="modal" data-bs-target="#signup" class="lowlabel float-end"> Create a new account </span>
                             </form>
                         </div>
                     </div>
@@ -283,8 +293,8 @@
 
                         <!-- Modal Header -->
                         <div class="mhead">
-                            <a type="button" class="d-sm-flex float-end m-2 p-2" data-bs-dismiss="modal"><img
-                                    class=" img-fluid" src="Images/close.png" alt=""></a>
+                            <a type="button" class="d-sm-flex float-end m-2 p-2" data-bs-dismiss="modal"><img class=" img-fluid"
+                                    src="Images/close.png" alt=""></a>
                             <h4 class="login-model-name text-center  py-2">PayRomi</h4>
 
                         </div>
@@ -293,36 +303,29 @@
                         <div class="modal-body ">
                             <div class="container">
                                 <form class="form ">
-
-
-                                    <label class="loglabel">Create account</label>
-                                    <input type="email" class="form-control mb-2" placeholder="Email" value="">
-                                    <input type="text" class="form-control mb-2" placeholder="Phone Number" value="">
-                                    <input type="password" class="form-control mb-3" placeholder="Password" value="">
-                                    <ul class="model-pass-terms mb-3">
-                                        <li>At least 8 Characters.</li>
-                                        <li>Atl east One @#$%&*</li>
-                                    </ul>
-                                    <div class=" form-check mb-3">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Send me emails and massage
-                                            about new arrivals, hot items, daily savings, & more.</label>
-                                    </div>
-                                    <div class="form-check mb-3">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">By clicking Create Account,
-                                            you acknowledge you have
-                                            read and agreed to our<a type="button" class="lowlabel"
-                                                data-bs-toggle="modal" data-bs-target="#login"> Terms of Use </a> and <a
-                                                type="button" class="lowlabel" data-bs-toggle="modal"
-                                                data-bs-target="#login"> Privacy Policy </a>.</label>
-                                    </div>
-
+                                    
+                                    
+                                        <label class="loglabel">Create account</label>
+                                        <input type="email" class="form-control mb-2" placeholder="Email" value="">                                   
+                                        <input type="text" class="form-control mb-2" placeholder="Phone Number" value="">           
+                                        <input type="password" class="form-control mb-3" placeholder="Password" value="">
+                                        <ul class="model-pass-terms mb-3">
+                                            <li>At least 8 Characters.</li>
+                                            <li>Atl east One @#$%&*</li>
+                                        </ul>
+                                        <div class=" form-check mb-3">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Send me emails and massage  about new arrivals, hot items, daily savings, & more.</label>
+                                          </div>
+                                          <div class="form-check mb-3">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">By clicking Create Account, you acknowledge you have
+                                                read and agreed to our<a type="button" class="lowlabel" data-bs-toggle="modal" data-bs-target="#login"> Terms of Use </a> and <a type="button" class="lowlabel" data-bs-toggle="modal" data-bs-target="#login"> Privacy Policy </a>.</label>
+                                          </div>
+                                          
 
                                     <button type="submit" class="btn btn-primary form-control ">Sign up</button>
-                                    <lable class="model-pass-terms float-end mt-2">Have an account? <span type="button"
-                                            class="lowlabel" data-bs-toggle="modal" data-bs-target="#login"> Login
-                                        </span></lable>
+                                    <lable class="model-pass-terms float-end mt-2">Have an account? <span type="button" class="lowlabel" data-bs-toggle="modal" data-bs-target="#login"> Login </span></lable>
                                 </form>
 
                             </div>
