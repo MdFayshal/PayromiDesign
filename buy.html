@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Animated css www.animate.style -->
-    <link rel="stylesheet "href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Animated css aos on scrol -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
     <!--  CSS UI -->
     <link rel="stylesheet" href="css/jquery-ui.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/buy.css">
     <link rel="stylesheet" href="css/priceslider.css">
     <link rel="stylesheet" href="css/countdown.css">
+
 
 
     <title>PayRomi</title>
@@ -70,7 +72,7 @@
             <div class="container">
                 <div class="row g-0">
                     <div class="col-lg-6 col-md-12 col-sm-12">
-                        <p class="BuyWelcome">Welcome To Payromi</p>
+                        <p class="BuyWelcome"  >Welcome To Payromi</p>
                         <h3 class="pay">Pay after delivered</h3>
                         <h4 style="color: #f44848; font-size: 30px;">with interest fee payment over 6 weeks</h4>
                         <p class="buypra">When you buy product with PayRomi associated online store will get
@@ -140,7 +142,7 @@
                         <p class="text-light text-capitalize"><span style="border: 1px solid #000; padding: 5px;">01.
                                 About Bold Studio</span></p>
                         <h2 class="founded-title"> Founded In 2016, Our Studio Specialises In User Experience.</h2>
-                        <p class=" founded-text" >We work with a diverse selection of
+                        <p class=" founded-text">We work with a diverse selection of
                             clients, from small start-ups to established companies and organisations, delivering bespoke
                             solutions rooted in usability, creativity, aesthetics and craft. </p>
                         <a type="button" class=" text-light" href="#"
@@ -154,30 +156,34 @@
                 </div>
             </div>
         </section>
-    <!-- counter section  -->
-        <section class="mt-4 container-fluid" >
-            <div class=" text-light countdown py-3 text-capitalize">
+        <!-- counter section  -->
+        <section class="mt-4 container-fluid ">
+            <div class=" text-light countdown py-3 text-capitalize ">
                 <div class="row c-item ">
                     <!-- counter -->
-                    <div class="col-md-3 col-sm-6 text-center counter-section animate__animated  animate__fadeInUp "> 
-                        
-                        <h2 class="timer alt-font appear  "> <span class="counter "  data-to="100" data-speed="7000">100</span><span>+</span></h2>
+                    <div class="col-md-3 col-sm-6 text-center counter-section  " data-aos="fade-up">
+
+                        <h2 class="timer alt-font appear  "> <span class="counter " data-to="100"
+                                data-speed="7000">100</span><span>+</span></h2>
                         <p class="counter-title ">Team Member</p>
                     </div> <!-- end counter -->
                     <!-- counter -->
-                    <div class="col-md-3 col-sm-6  text-center counter-section  animate__animated  animate__fadeInUp  "> 
-                        <h2 class="timer alt-font appear  "> <span class="counter "  data-to="300" data-speed="7000">300</span><span>+</span></h2> 
-                        <span class="counter-title">Total Project</span> 
+                    <div class="col-md-3 col-sm-6  text-center counter-section   " data-aos="fade-up">
+                        <h2 class="timer alt-font appear  "> <span class="counter " data-to="300"
+                                data-speed="7000">300</span><span>+</span></h2>
+                        <span class="counter-title">Total Project</span>
                     </div> <!-- end counter -->
                     <!-- counter -->
-                    <div class="col-md-3 col-sm-6  text-center counter-section animate__animated  animate__fadeInUp ">
-                        <h2 class="timer alt-font appear" > <span class="counter"  data-to="1300" data-speed="7000" >1300</span><span>+</span></h2>  
-                        <span class="counter-title">Happy Clients</span> 
+                    <div class="col-md-3 col-sm-6  text-center counter-section " data-aos="fade-up">
+                        <h2 class="timer alt-font appear"> <span class="counter" data-to="1300"
+                                data-speed="7000">1300</span><span>+</span></h2>
+                        <span class="counter-title">Happy Clients</span>
                     </div> <!-- end counter -->
                     <!-- counter -->
-                    <div class="col-md-3 col-sm-6 text-center counter-section animate__animated  animate__fadeInUp  ">
-                        <h2 class="timer alt-font appear"><span class="counter"  data-to="50" data-speed="7000" >50</span><span>+</span> </h2> 
-                        <span class="counter-title">Awards Won</span> 
+                    <div class="col-md-3 col-sm-6 text-center counter-section  " data-aos="fade-up">
+                        <h2 class="timer alt-font appear"><span class="counter" data-to="50"
+                                data-speed="7000">50</span><span>+</span> </h2>
+                        <span class="counter-title">Awards Won</span>
                     </div> <!-- end counter -->
                 </div>
             </div>
@@ -348,7 +354,8 @@
                                                     </span>
                                                 </li>
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$<span id="weak1"></span> </span><span class="price-day my-2">1st
+                                                    <span class="price my-2">$<span id="weak1"></span> </span><span
+                                                        class="price-day my-2">1st
                                                         Week</span><span class="price-date my-2">7th Jan</span><span>
                                                         <div class="progress day2 my-2 "> <span class="progress-left">
                                                                 <span class="progress-bar"></span> </span> <span
@@ -359,7 +366,8 @@
                                                     </span>
                                                 </li>
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$<span id="weak2"></span> </span><span class="price-day my-2">2nd
+                                                    <span class="price my-2">$<span id="weak2"></span> </span><span
+                                                        class="price-day my-2">2nd
                                                         Week</span><span class="price-date my-2">14th Jan</span><span>
                                                         <div class="progress day3 my-2 "> <span class="progress-left">
                                                                 <span class="progress-bar"></span> </span> <span
@@ -370,7 +378,8 @@
                                                     </span>
                                                 </li>
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$<span id="weak3"></span> </span><span class="price-day my-2">3rd
+                                                    <span class="price my-2">$<span id="weak3"></span> </span><span
+                                                        class="price-day my-2">3rd
                                                         Week</span><span class="price-date my-2">21st Jan</span><span>
                                                         <div class="progress day4 my-2 "> <span class="progress-left">
                                                                 <span class="progress-bar"></span> </span> <span
@@ -381,7 +390,8 @@
                                                     </span>
                                                 </li>
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$<span id="weak4"></span> </span><span class="price-day my-2">4th
+                                                    <span class="price my-2">$<span id="weak4"></span> </span><span
+                                                        class="price-day my-2">4th
                                                         Week</span><span class="price-date my-2">4th Feb</span><span>
                                                         <div class="progress day5 my-2 "> <span class="progress-left">
                                                                 <span class="progress-bar"></span> </span> <span
@@ -392,7 +402,8 @@
                                                     </span>
                                                 </li>
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$<span id="weak5"></span> </span><span class="price-day my-2">5th
+                                                    <span class="price my-2">$<span id="weak5"></span> </span><span
+                                                        class="price-day my-2">5th
                                                         Week</span><span class="price-date my-2">11th Feb</span><span>
                                                         <div class="progress day6 my-2 "> <span class="progress-left">
                                                                 <span class="progress-bar"></span> </span> <span
@@ -403,7 +414,8 @@
                                                     </span>
                                                 </li>
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$<span id="weak6"></span> </span><span class="price-day my-2">6th
+                                                    <span class="price my-2">$<span id="weak6"></span> </span><span
+                                                        class="price-day my-2">6th
                                                         week</span><span class="price-date my-2">18th Feb</span><span>
                                                         <div class="progress day7 my-2 "> <span class="progress-left">
                                                                 <span class="progress-bar"></span> </span> <span
@@ -515,10 +527,14 @@
         <script src="js/jquery-3.6.0.js"></script>
         <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"
             integrity="sha256-xH4q8N0pEzrZMaRmd7gQVcTZiFei+HfRTBPJ1OGXC0k=" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <!-- Custom JS -->
         <script src="js/countdown.js"></script>
         <script src="js/priceslider.js"></script>
         <script src="js/script.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
     </body>
 
