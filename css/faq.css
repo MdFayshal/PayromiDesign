@@ -12,30 +12,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    background-color: #f5e6e8 !important;
-    padding-bottom: 20px;
-}
 
-.navbar-brand {
-    font-size: 48px;
-    line-height: 57px;
-    font-weight: 800;
-    margin-right: 50px;
-}
-
-.navbar-nav {
-    padding-top: 20px;
-    text-align: center;
-}
-
-a.nav-link {
-    color: #000 !important;
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 800;
-    margin: 10px;
-}
 
 /* -------Banner Section------ */
 .buy {

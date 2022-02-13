@@ -75,63 +75,73 @@ p{
         width: 100%;
     }
 }
-
-#mixedSlider .MS-content .item .imgTitle {
-    position: relative;
+.team-name{
+    font-size: 24px;
 }
-
-#mixedSlider .MS-content .item .imgTitle .blogTitle {
-    margin: 0;
-    text-align: left;
-    letter-spacing: 2px;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    bottom: 0;
-    font-weight: bold;
-    padding: 0 0 2px 10px;
-    width: 80%;
-    border-radius: 0 5px 0 5px;
-}
-
-#mixedSlider .MS-content .item .imgTitle img {
-    height: auto;
-    width: 100%;
-}
-
-#mixedSlider .MS-content .item p {
+.team-title {
     font-size: 16px;
     margin: 2px 10px 0 5px;
     text-indent: 15px;
 }
-
+.team-details{
+    width: 80%; 
+    margin-top: -60px;
+    border-radius: 0px 10px 10px 10px;
+    background-color: #ffffff;
+    z-index: 1;
+    position: relative;
+    width: 80%;
+    margin-top: -60px; 
+}
 #mixedSlider .MS-content .item a {
-    float: right;
-    margin: 0 20px 0 0;
+    margin: 0 10px 0 0;
     font-size: 16px;
     font-style: italic;
-    color: rgba(173, 0, 0, 0.82);
+    color: #0D6EFD;
     font-weight: bold;
     letter-spacing: 1px;
     transition: linear 0.1s;
+    box-shadow: 0px 3px 10px 0px rgb(0 69 255 / 20%);
 }
 
 #mixedSlider .MS-content .item a:hover {
-    text-shadow: 0 0 1px grey;
+    color: #ffffff;
+    background-color: #0D6EFD;
 }
+@media (max-width: 1199px) {
+    #mixedSlider .MS-content .item {
+        margin: 0 5px 0 0;
+    }
+    #mixedSlider .MS-content .item a {
+        margin: 0 3px 0 0;
+        font-size: 10px;
+
+    }
+    .team-name{
+        font-size: 22px;
+    }
+    .team-title {
+        font-size: 16px;
+        margin: 0px 5px 0 0px;
+       
+    }
+
+}
+
 
 #mixedSlider .MS-controls button {
     position: absolute;
     border: none;
     background-color: transparent;
     outline: 0;
-    font-size: 50px;
+    font-size: 40px;
     top: 95px;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.671);
     transition: 0.15s linear;
 }
 
 #mixedSlider .MS-controls button:hover {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0);
 }
 
 @media (max-width: 992px) {
@@ -205,15 +215,33 @@ p{
 
 @media (max-width: 500px) {
 
-    #basicSlider .MS-content .item {
-        width: 50%;
+
+    .team-details{
+       
+        margin-top: 0px;
+        border-radius: 0px 10px 10px 10px;
+        background-color: #ffffff;
+        z-index: 0;
+        width: 100%;
+        margin-top: -30px; 
+        padding: 0;
     }
-    .MS-content svg{
-        height: 10px;
-        width: 10px;
+    
+    .team-name{
+        font-size: 16px;
+        padding: 0;
     }
-    #mixedSlider .MS-content .item a{
-        margin: 0 10px 0 0;
+    .team-title {
+        font-size: 12px;
+        margin: 0px 0px 0 0px;
+       
+    }
+    #mixedSlider .MS-content .item a {
+        margin: 0 0 0 0;
+        font-size: 14px;
+        height: 20px;
+        width: 20px;
+
     }
 
 }

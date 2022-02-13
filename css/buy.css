@@ -70,34 +70,39 @@ a.nav-link {
     text-align: justify;
     letter-spacing: 0.15em;
 }
+
 .buymedia {
     background-color: #192a51;
     border-radius: 15px 35px 15px 15px;
     height: 120px;
 }
-.buymedia img{
+
+.buymedia img {
     width: 59px;
     height: 56px;
 }
-.delivery-service-title{
+
+.delivery-service-title {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 37.4589px;
     line-height: 44px;
-    
+
     color: #FFFFFF;
 }
-.delivery-service-text{
+
+.delivery-service-text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 13.3467px;
     line-height: 16px;
-    margin-top:10px;
-    
+    margin-top: 10px;
+
     color: #FFFFFF;
 }
+
 /* -----  Signup steps numbering n img setting ----- */
 
 .sinup {
@@ -138,6 +143,7 @@ a.nav-link {
     padding-top: 8px;
 }
 
+/* --  countdown section -- */
 
 /* --   pay method -- */
 
@@ -233,7 +239,7 @@ a.nav-link {
     font-size: 14.025px;
     line-height: 16px;
     color: #000000;
-    padding-left:15px;
+    padding-left: 15px;
 
 }
 
@@ -581,7 +587,27 @@ a.nav-link {
 
 /* Progres weekbar end */
 
-
+/* Founded 2016 */
+.founded-title{
+    font-family: 'Space Grotesk'; 
+    background: linear-gradient( -135deg,#f670c1,#ffcc90 ); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 78px;
+    letter-spacing: -1.8px;
+    margin: 0;
+    padding: 0;
+    
+}
+.founded-text {
+    font-family: "Anonymous Pro";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: rgb(255, 255, 255) ;
+}
 
 /* =========================================================  Media Query =============================================================== */
 
@@ -598,16 +624,19 @@ a.nav-link {
         letter-spacing: 0.05em;
         color: #000000;
     }
-     /*Service card*/
-    .buymedia img{
+
+    /*Service card*/
+    .buymedia img {
         width: 45px;
         height: 45px;
     }
-    .delivery-service-title{
+
+    .delivery-service-title {
         font-size: 34px;
         line-height: 36px;
     }
-    .delivery-service-text{
+
+    .delivery-service-text {
         font-size: 11px;
         line-height: 15px;
         color: #FFFFFF;
@@ -630,28 +659,33 @@ a.nav-link {
         font-size: 24px;
         line-height: 30px;
         color: #000000;
-    
+
     }
 
 
 }
 
+
 /* =========================================================  Media Query max-width: 991px =============================================================== */
 @media only screen and (max-width: 991px) {
-    /*Service card*/ 
-    .buymedia img{
+
+    /*Service card*/
+    .buymedia img {
         width: 40px;
         height: 40px;
     }
-    .delivery-service-title{
+
+    .delivery-service-title {
         font-size: 21px;
         line-height: 31px;
     }
-    .delivery-service-text{
+
+    .delivery-service-text {
         font-size: 10.5px;
         line-height: 13px;
         color: #FFFFFF;
     }
+
     /*---------------------------------------------------------------------------------------  */
     /* Another page Buy */
     /* --   pay method -- */
@@ -757,14 +791,25 @@ a.nav-link {
     }
 
 }
+/* Founded 2016 */
+.founded-title{
+    font-size: 36px;
+    line-height: 50px; 
+}
+.founded-text {
+
+    font-size: 14px;
+    line-height: 25.6px;
+ 
+
 
 /* =========================================================  Media Query max-width: 575px =============================================================== */
 
 @media only screen and (max-width: 575px) {
-.navbar-brand{
-    height: 25%;
-    width: 25%;
-}
+    .navbar-brand {
+        height: 25%;
+        width: 25%;
+    }
 
 
     /*---------------------------------------------------------------------------------------  */

@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Animated css www.animate.style -->
+    <link rel="stylesheet "href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!--  CSS UI -->
     <link rel="stylesheet" href="css/jquery-ui.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/buy.css">
+    <link rel="stylesheet" href="css/priceslider.css">
+    <link rel="stylesheet" href="css/countdown.css">
+
+
     <title>PayRomi</title>
     </head>
     <!doctype html>
@@ -125,9 +131,59 @@
                 </div>
             </div>
         </section>
-
+        <!-- Counts Section -->
+        <!-- Founded 2016 -->
+        <section class="hww mt-4" style="background-color: #19191C;">
+            <div class="container">
+                <div class="row row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2">
+                    <div class="col py-5">
+                        <p class="text-light text-capitalize"><span style="border: 1px solid #000; padding: 5px;">01.
+                                About Bold Studio</span></p>
+                        <h2 class="founded-title"> Founded In 2016, Our Studio Specialises In User Experience.</h2>
+                        <p class=" founded-text" >We work with a diverse selection of
+                            clients, from small start-ups to established companies and organisations, delivering bespoke
+                            solutions rooted in usability, creativity, aesthetics and craft. </p>
+                        <a type="button" class=" text-light" href="#"
+                            style=" text-decoration: none; font-family: 'Space Grotesk' ;"><span
+                                style="margin-right: 4px;">Our Studio</span> <i
+                                class="ml-2 fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <img class=" img-fluid" src="Images/founded.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- counter section  -->
+        <section class="mt-4 container-fluid" >
+            <div class=" text-light countdown py-3 text-capitalize">
+                <div class="row c-item ">
+                    <!-- counter -->
+                    <div class="col-md-3 col-sm-6 text-center counter-section animate__animated  animate__fadeInUp "> 
+                        
+                        <h2 class="timer alt-font appear  "> <span class="counter "  data-to="100" data-speed="7000">100</span><span>+</span></h2>
+                        <p class="counter-title ">Team Member</p>
+                    </div> <!-- end counter -->
+                    <!-- counter -->
+                    <div class="col-md-3 col-sm-6  text-center counter-section  animate__animated  animate__fadeInUp  "> 
+                        <h2 class="timer alt-font appear  "> <span class="counter "  data-to="300" data-speed="7000">300</span><span>+</span></h2> 
+                        <span class="counter-title">Total Project</span> 
+                    </div> <!-- end counter -->
+                    <!-- counter -->
+                    <div class="col-md-3 col-sm-6  text-center counter-section animate__animated  animate__fadeInUp ">
+                        <h2 class="timer alt-font appear" > <span class="counter"  data-to="1300" data-speed="7000" >1300</span><span>+</span></h2>  
+                        <span class="counter-title">Happy Clients</span> 
+                    </div> <!-- end counter -->
+                    <!-- counter -->
+                    <div class="col-md-3 col-sm-6 text-center counter-section animate__animated  animate__fadeInUp  ">
+                        <h2 class="timer alt-font appear"><span class="counter"  data-to="50" data-speed="7000" >50</span><span>+</span> </h2> 
+                        <span class="counter-title">Awards Won</span> 
+                    </div> <!-- end counter -->
+                </div>
+            </div>
+        </section>
         <!-- Section tutorial sign up -->
-        <section class="sinupsedign" style="background: rgba(213, 198, 224, 0.75);">
+        <section class="sinupsedign mt-4" style="background: rgba(213, 198, 224, 0.75);">
             <div class="container">
                 <div class="container ss1">
                     <div class="row ">
@@ -266,16 +322,21 @@
                                         <div>
                                             <h5 class="font-weight-bold" id="planamount">How much do you plan to spend ?
                                             </h5>
-                                            <input type="number" class=" priceinput" id="day_slider_input" value=""
+                                            <!-- this is range ithout input bos -->
+                                            <p>Total Amount$: <span id="demo"></span></p>
+                                            <input type="range" min="0" max="5000" value="102" step="1" class="slider"
+                                                id="myRange">
+                                            <!-- this is input field with value change -->
+                                            <!-- <input type="number" class=" priceinput" id="day_slider_input" value=""
                                                 placeholder="Default input" min="0" max="100">
                                             <div class="custom-progress progress-up" style="width: 100%">
                                                 <div id="day_slider"
                                                     class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content my-3">
                                                 </div>
-                                            </div>
+                                            </div> -->
                                             <ul class="list-group">
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$5</span><span
+                                                    <span class="price my-2">$<span id="today"></span></span><span
                                                         class="price-day my-2">Today</span><span
                                                         class="price-date my-2">7th Jan</span><span>
                                                         <div class="progress day1 my-2 "> <span class="progress-left">
@@ -287,7 +348,7 @@
                                                     </span>
                                                 </li>
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$19</span><span class="price-day my-2">1st
+                                                    <span class="price my-2">$<span id="weak1"></span> </span><span class="price-day my-2">1st
                                                         Week</span><span class="price-date my-2">7th Jan</span><span>
                                                         <div class="progress day2 my-2 "> <span class="progress-left">
                                                                 <span class="progress-bar"></span> </span> <span
@@ -298,7 +359,7 @@
                                                     </span>
                                                 </li>
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$19</span><span class="price-day my-2">2nd
+                                                    <span class="price my-2">$<span id="weak2"></span> </span><span class="price-day my-2">2nd
                                                         Week</span><span class="price-date my-2">14th Jan</span><span>
                                                         <div class="progress day3 my-2 "> <span class="progress-left">
                                                                 <span class="progress-bar"></span> </span> <span
@@ -309,7 +370,7 @@
                                                     </span>
                                                 </li>
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$19</span><span class="price-day my-2">3rd
+                                                    <span class="price my-2">$<span id="weak3"></span> </span><span class="price-day my-2">3rd
                                                         Week</span><span class="price-date my-2">21st Jan</span><span>
                                                         <div class="progress day4 my-2 "> <span class="progress-left">
                                                                 <span class="progress-bar"></span> </span> <span
@@ -320,7 +381,7 @@
                                                     </span>
                                                 </li>
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$19</span><span class="price-day my-2">4th
+                                                    <span class="price my-2">$<span id="weak4"></span> </span><span class="price-day my-2">4th
                                                         Week</span><span class="price-date my-2">4th Feb</span><span>
                                                         <div class="progress day5 my-2 "> <span class="progress-left">
                                                                 <span class="progress-bar"></span> </span> <span
@@ -331,7 +392,7 @@
                                                     </span>
                                                 </li>
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$19</span><span class="price-day my-2">5th
+                                                    <span class="price my-2">$<span id="weak5"></span> </span><span class="price-day my-2">5th
                                                         Week</span><span class="price-date my-2">11th Feb</span><span>
                                                         <div class="progress day6 my-2 "> <span class="progress-left">
                                                                 <span class="progress-bar"></span> </span> <span
@@ -342,7 +403,7 @@
                                                     </span>
                                                 </li>
                                                 <li class="d-flex justify-content-between bg-light pricelist mt-2">
-                                                    <span class="price my-2">$19</span><span class="price-day my-2">6th
+                                                    <span class="price my-2">$<span id="weak6"></span> </span><span class="price-day my-2">6th
                                                         week</span><span class="price-date my-2">18th Feb</span><span>
                                                         <div class="progress day7 my-2 "> <span class="progress-left">
                                                                 <span class="progress-bar"></span> </span> <span
@@ -441,6 +502,10 @@
                 </div>
             </div>
         </section>
+        <!-- full Banner -->
+        <section class="full-banner mt-5 mb-2 d-flex justify-content-center">
+            <img class=" img-fluid" src="Images/banner1.jpg" width="100%`" alt="">
+        </section>
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -451,6 +516,8 @@
         <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"
             integrity="sha256-xH4q8N0pEzrZMaRmd7gQVcTZiFei+HfRTBPJ1OGXC0k=" crossorigin="anonymous"></script>
         <!-- Custom JS -->
+        <script src="js/countdown.js"></script>
+        <script src="js/priceslider.js"></script>
         <script src="js/script.js"></script>
 
     </body>

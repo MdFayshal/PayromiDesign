@@ -15,48 +15,90 @@
     <!--  CSS UI -->
     <link rel="stylesheet" href="css/jquery-ui.css">
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/faq.css">
     <title>PayRomi</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">PayRomi</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="buy.html">How it’s work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="faq.html">FAQ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about_us.html">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " type="button" data-bs-toggle="modal" data-bs-target="#myModal"><i
-                                        class="fas fa-user" style="color: #c59ca1;"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+    <!-- Nav bar section -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PayRomi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mr-auto align-self-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="buy.html">How it’s work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">About Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex m-lg-auto">
+                    <input class="form-control  rounded-pill border-warning van-searchbox" type="search"
+                        placeholder="Search" aria-label="Search">
+                </form>
+                <div class=" d-flex justify-content-center">
+                    <a class=" text-dark text-center btn btn-outline-warning rounded-pill bg-light nav-log-btn"
+                        style="margin-top: 10px; font-size: 18px; height: 30px; padding: 0px 25px;" type="button"
+                        data-bs-toggle="modal" data-bs-target="#myModal"> Login</a>
                 </div>
-            </nav>
+            </div>
         </div>
-    </header>
+    </nav>
+    <!-- category section -->
+    <section class="category-nav autohide">
+        <div class="container">
+            <div class=" bg-light rounded-pill  ">
+                <ul class="nav   justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link  active" href="faq.html">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Banner Section with icon box-->
     <section class="buy">
         <div class="container pl-5 pr-5 ">
@@ -70,7 +112,9 @@
                         Weekly, Bi-Weekly, Monthly payment method with No interest free.</p>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
-                    <img class="img-fluid" src="Images/kisspng-smartphone-iphone-x-apple-iphone-8-plus-huawei-mat-5af3057ec9a233 1.png" alt="BannerImage" height="700">
+                    <img class="img-fluid"
+                        src="Images/kisspng-smartphone-iphone-x-apple-iphone-8-plus-huawei-mat-5af3057ec9a233 1.png"
+                        alt="BannerImage" height="700">
                 </div>
             </div>
         </div>
@@ -83,7 +127,8 @@
                             <img src="Images/Today.png" alt="Icon">
                             <div class="media-title delivery-service-title ">Instant</div>
                         </div>
-                        <div class="media-text delivery-service-text">Pay at delivery date. Enjoy every purchase No hidden fees-ever</div>
+                        <div class="media-text delivery-service-text">Pay at delivery date. Enjoy every purchase No
+                            hidden fees-ever</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 ">
@@ -92,7 +137,8 @@
                             <img src="Images/Timetable.png" alt="Icon">
                             <div class="media-title delivery-service-title">Weekly</div>
                         </div>
-                        <div class="media-text delivery-service-text">6 interest-free payments every weeks No credit Check</div>
+                        <div class="media-text delivery-service-text">6 interest-free payments every weeks No credit
+                            Check</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 ">
@@ -101,20 +147,22 @@
                             <img src="Images/PayDate.png" alt="Icon">
                             <div class="media-title delivery-service-title">Bi-Weekly</div>
                         </div>
-                        <div class="media-text delivery-service-text">4 interest-free payments every 2 weeks No impact on your credit score</div>
+                        <div class="media-text delivery-service-text">4 interest-free payments every 2 weeks No impact
+                            on your credit score</div>
                     </div>
                 </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 ">
-                        <div class="buymedia p-2 text-light">
-                            <div class="d-flex align-content-between">
-                                <img src="Images/Group15.png" alt="Icon">
-                                <div class="media-title delivery-service-title">Monthly</div>
-                            </div>
-                            <div class="media-text delivery-service-text">3 to 12 monthly installments , perfect for bigger purchase. Condition apply</div>
+                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                    <div class="buymedia p-2 text-light">
+                        <div class="d-flex align-content-between">
+                            <img src="Images/Group15.png" alt="Icon">
+                            <div class="media-title delivery-service-title">Monthly</div>
                         </div>
+                        <div class="media-text delivery-service-text">3 to 12 monthly installments , perfect for bigger
+                            purchase. Condition apply</div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <!-- Buttons  -->
     <section class="btn-section mt-5">
@@ -150,9 +198,10 @@
                         <div class="accordion">
                             <div class="accordion-item mb-4 ">
                                 <h2 class="accordion-header" id="panelsStayOpen-headingone">
-                                    <button class="accordion-button collapsed d-flex" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#panelsStayOpen-collapseone" aria-expanded="false"
-                                        aria-controls="panelsStayOpen-collapseone"><i class="fs-5 mr-4 pr-4 fa-solid fa-plus"></i>
+                                    <button class="accordion-button collapsed d-flex" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseone"
+                                        aria-expanded="false" aria-controls="panelsStayOpen-collapseone"><i
+                                            class="fs-5 mr-4 pr-4 fa-solid fa-plus"></i>
                                         <span class="faq-titale" style="margin-left:10px ;">Accordion Item #1</span>
                                     </button>
                                 </h2>
@@ -173,7 +222,8 @@
                                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                                        aria-controls="panelsStayOpen-collapseTwo"><i class="fs-5 mr-4 pr-4 fa-solid fa-plus"></i>
+                                        aria-controls="panelsStayOpen-collapseTwo"><i
+                                            class="fs-5 mr-4 pr-4 fa-solid fa-plus"></i>
                                         <span class="faq-titale" style="margin-left:10px ;">Accordion Item #2</span>
                                     </button>
                                 </h2>
@@ -263,9 +313,9 @@
                         <div class="accordion">
                             <div class="accordion-item mb-4 ">
                                 <h2 class="accordion-header" id="panelsStayOpen-heading6">
-                                    <button class="accordion-button collapsed d-flex" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#panelsStayOpen-collapse6" aria-expanded="false"
-                                        aria-controls="panelsStayOpen-collapseone">
+                                    <button class="accordion-button collapsed d-flex" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse6"
+                                        aria-expanded="false" aria-controls="panelsStayOpen-collapseone">
                                         <i class="fs-5 mr-4 pr-4 fa-solid fa-plus"></i>
                                         <span class="faq-titale" style="margin-left:10px ;">Accordion Item #6</span>
                                     </button>
@@ -378,7 +428,7 @@
             </div>
         </div>
     </section>
-  
+
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -391,6 +441,7 @@
         integrity="sha256-xH4q8N0pEzrZMaRmd7gQVcTZiFei+HfRTBPJ1OGXC0k=" crossorigin="anonymous"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+    
 
 </body>
 
