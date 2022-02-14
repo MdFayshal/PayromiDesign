@@ -588,10 +588,10 @@ a.nav-link {
 /* Progres weekbar end */
 
 /* Founded 2016 */
-.founded-title{
-    font-family: 'Space Grotesk'; 
-    background: linear-gradient( -135deg,#f670c1,#ffcc90 ); 
-    -webkit-background-clip: text; 
+.founded-title {
+    font-family: 'Space Grotesk';
+    background: linear-gradient(-135deg, #f670c1, #ffcc90);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 60px;
     font-weight: 500;
@@ -599,14 +599,15 @@ a.nav-link {
     letter-spacing: -1.8px;
     margin: 0;
     padding: 0;
-    
+
 }
+
 .founded-text {
     font-family: "Anonymous Pro";
     font-weight: 400;
     font-size: 16px;
     line-height: 25.6px;
-    color: rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
 }
 
 /* =========================================================  Media Query =============================================================== */
@@ -790,17 +791,20 @@ a.nav-link {
         font-weight: 600;
     }
 
-}
-/* Founded 2016 */
-.founded-title{
-    font-size: 36px;
-    line-height: 50px; 
-}
-.founded-text {
+    /* Founded 2016 */
+    .founded-title {
+        font-size: 36px;
+        line-height: 50px;
+    }
 
-    font-size: 14px;
-    line-height: 25.6px;
- 
+    .founded-text {
+
+        font-size: 14px;
+        line-height: 25.6px;
+
+    }
+
+}
 
 
 /* =========================================================  Media Query max-width: 575px =============================================================== */

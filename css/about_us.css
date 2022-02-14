@@ -288,10 +288,7 @@ p{
   .progress {
     height: 10px;
   }
-  /* feedback bg color */
-/* .feedback{
-    background-image: linear-gradient(to bottom, #0D43FE 0%, #B92FF3 100%);
-} */
+
 .feedback {
     background-image: url("../images/Technology__-9.jpg"),linear-gradient(180deg, #0045FF 0%, #BD29F2 100%);
     background-blend-mode: overlay;
@@ -300,17 +297,7 @@ p{
     background-size: cover;
     
 }
-/* Line */
-/* .line{
-    background-color: #0045FF;
-display: inline-block;
-position: relative;
-bottom: 3px;
-text-align: left;
-width: 30px;
-height: 2px;
-margin: 0px 0px 0px 10px;
-} */
+
 .single-testimonial{
     background-color: #FFFFFF;
     border-radius: 10px 10px 10px 10px;
@@ -318,9 +305,7 @@ margin: 0px 0px 0px 10px;
     position: initial;
     padding: 30px 30px 30px 30px;
 }
-.testmonial__quote{
-    
-}
+
 .testmonial__description {
     font-size: 18px;
     font-weight: 500;
@@ -349,4 +334,45 @@ margin: 0px 0px 0px 10px;
 .author__name {
     font-size: 20px;
     margin: -50px 0px 4px -3px;
+}
+@media only screen and (max-width: 1199px) {
+    .author__thumb__designation {
+        display: block;
+        position: relative;
+        padding: 0px 0px 0px 0px;
+    }
+
+}
+@media only screen and (max-width: 991px){
+    .author__thumb {
+        width: 40px;
+        height: 40px;
+        margin: 0px 0px 0px 0px;
+    }
+    .testimonial-title {
+        margin-left: 50px;
+    }
+    p.author__designation {
+        font-size: 13px;
+        letter-spacing: -0.5px;
+    }
+    .single-testimonial {
+
+        padding: 0 20px 20px 20px;
+    }
+
+}
+@media only screen and (max-width: 767px){
+.author__thumb {
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px 0px 30%;
+}
+}
+@media only screen and (max-width: 500px){
+.author__thumb {
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px 0px 20%;
+}
 }
