@@ -14,6 +14,7 @@
     <!--  CSS UI -->
     <link rel="stylesheet" href="css/jquery-ui.css">
     <!-- Custom CSS -->
+    <link rel="stylesheet"  href="css/priceslider.css" >
     <link rel="stylesheet" href="css/how_it_works.css">
 
  
@@ -56,6 +57,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="about_us.html">About Us</a>
                                 </li>
+								<li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link " type="button" data-bs-toggle="modal"
                                         data-bs-target="#myModal"><i class="fas fa-user"
@@ -68,17 +72,17 @@
             </div>
         </header>
         <!-- Banner Section with icon box-->
-        <section class=" container-fluid buy">
+        <section class=" buy">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <p class="BuyWelcome"  >Welcome To Payromi</p>
-                        <h3 class="pay mt-5">Pay after delivered</h3>
-                        <h4 class="pay-title mt-3">with interest fee payment over 6 weeks</h4>
+                        <h3 class="pay mt-4">Pay after delivered</h3>
+                        <h4 class="pay-title mt-2">with interest fee payment over 6 weeks</h4>
                         <p class="buypra mt-4">When you buy product with PayRomi associated online store will get
                             fastest delivery. After product delivered to your door-step, Choose PayRomi instanst,
                             Weekly, Bi-Weekly, Monthly payment method with No interest free.</p>
-                        <a type="button" class="btn buy-btn mt-5" href="#">PayRomi</a>
+                        <a type="button" class="btn buy-btn mt-4" href="#">PayRomi</a>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-lg-end  justify-content-md-center">
                         <img class=" top-rt-img img-fluid "
@@ -91,7 +95,7 @@
             <div class="container">
                 <div class="row g-xl-4 g-md-2 gx-sm-4 gy-sm-0 buyservcard">
                     <div class="col-lg-3 col-md-3 col-sm-6  serv-img-1  ">
-                        <div class="buymedia p-2 text-light ">
+                        <div class="buymedia  text-light ">
                             <div class="d-flex align-content-between ">
                                 <img src="Images/Today.png" alt="">
                                 <div class="media-title delivery-service-title">Instant </div>
@@ -101,7 +105,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 serv-img-2 ">
-                        <div class="buymedia p-2 text-light">
+                        <div class="buymedia  text-light">
                             <div class="d-flex align-content-between">
                                 <img src="Images/Timetable.png" alt="">
                                 <div class="media-title delivery-service-title">Weekly</div>
@@ -111,7 +115,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6  serv-img-3">
-                        <div class="buymedia p-2 text-light">
+                        <div class="buymedia  text-light">
                             <div class="d-flex align-content-between">
                                 <img src="Images/PayDate.png" alt="">
                                 <div class="media-title delivery-service-title">Bi-Weekly</div>
@@ -121,7 +125,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 serv-img-4 ">
-                        <div class="buymedia p-2 text-light">
+                        <div class="buymedia  text-light">
                             <div class="d-flex align-content-between">
                                 <img src="Images/Group15.png" alt="">
                                 <div class="media-title delivery-service-title">Monthly</div>
@@ -461,16 +465,16 @@
         <section class="better-shop mt-5">
             <div class="container pt-4">
                 <h2 class="text-center text-capitalize" >Better shopping with PayRomy</h2>
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 row-cols-xl-3">
                     
-                    <div class="col d-flex justify-content-center"> 
-                        <img class=" img-fluid" src="images/bettershopping.png" style="height: 520px;" alt="">
+                    <div class="col d-flex justify-content-center align-self-lg-end"> 
+                        <img class=" img-fluid" src="images/bettershopping.png" style="object-fit: contain; margin-bottom: 123px;" alt="">
                     </div>
                     
                     <div class="col text-center align-self-center mb-5 ">
-                        <h2 class="bs-title">The app is where it’s at</h2>
-                        <p class="bs-text">See your spend limit, manage payments, and keep track of your favorite places to shop. And get alerts on new launches and offers from top brands. it all happens on the app</p>
-                        <a class="btn bs-btn btn-lg  " href="#"> <span class="bg-btn px-3">payromi </span> <span class="px-3" style="color: #1352F4;">get it</span> </a>
+                        <h2 class="bs-title mt-3">The app is where it’s at</h2>
+                        <p class="bs-text mt-3">See your spend limit, manage payments, and keep track of your favorite places to shop. And get alerts on new launches and offers from top brands. it all happens on the app</p>
+                        <a class="btn bs-btn btn-lg  " href="#"> <span class="bg-btn px-3">payromi </span> <span class="px-3" style="color: #1352F4 !important;">get it</span> </a>
                         
 
                     </div>
@@ -495,6 +499,8 @@
         <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"
             integrity="sha256-xH4q8N0pEzrZMaRmd7gQVcTZiFei+HfRTBPJ1OGXC0k=" crossorigin="anonymous"></script>
         <!-- custom js -->
+        <script src="js/priceslider.js"></script>
+        <script src="js/script.js"></script>
         <script src="js/how_it_works.js"></script>
     
   

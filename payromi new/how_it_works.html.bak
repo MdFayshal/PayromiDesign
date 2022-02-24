@@ -53,6 +53,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="faq.html">FAQ</a>
                                 </li>
+								<li class="nav-item">
+                                    <a class="nav-link" href="contact.html">contact Us</a>
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about_us.html">About Us</a>
                                 </li>
@@ -468,8 +471,8 @@
                     </div>
                     
                     <div class="col text-center align-self-center mb-5 ">
-                        <h2 class="bs-title">The app is where it’s at</h2>
-                        <p class="bs-text">See your spend limit, manage payments, and keep track of your favorite places to shop. And get alerts on new launches and offers from top brands. it all happens on the app</p>
+                        <h2 class="bs-title mt-3">The app is where it’s at</h2>
+                        <p class="bs-text mt-3">See your spend limit, manage payments, and keep track of your favorite places to shop. And get alerts on new launches and offers from top brands. it all happens on the app</p>
                         <a class="btn bs-btn btn-lg  " href="#"> <span class="bg-btn px-3">payromi </span> <span class="px-3" style="color: #1352F4;">get it</span> </a>
                         
 

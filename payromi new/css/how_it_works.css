@@ -22,7 +22,7 @@ body {
 
 header {
     background-color: #f5e6e8 !important;
-    padding-bottom: 20px;
+ 
 }
 
 .navbar-brand {
@@ -54,7 +54,9 @@ a.nav-link {
 
 
 }
-
+.top-rt-img{
+    height: 330px;
+}
 .buy .row {
     padding-top: 30px;
 }
@@ -85,37 +87,44 @@ a.nav-link {
     line-height: 28px;
     color: #F44848;
 }
+.buyservcard {
+    height: 220px;
+}
 
 .serv-img-1 {
     background-image: url('../Images/srv1.png');
     background-repeat: no-repeat;
-    height: 186px;
-    padding-top: 25px;
-    padding-left: 40px;
+    background-size:50%;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-top: 15px;
 }
 
 .serv-img-2 {
     background-image: url('../Images/srv2.png');
     background-repeat: no-repeat;
-    height: 186px;
-    padding-top: 25px;
-    padding-left: 40px;
+    background-size:50%;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-top: 15px;
 }
 
 .serv-img-3 {
     background-image: url('../Images/srv3.png');
     background-repeat: no-repeat;
-    height: 186px;
-    padding-top: 25px;
-    padding-left: 40px;
+    background-size:50%;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-top: 15px;
 }
 
 .serv-img-4 {
     background-image: url('../Images/srv4.png');
     background-repeat: no-repeat;
-    height: 186px;
-    padding-top: 25px;
-    padding-left: 40px;
+    background-size:50%;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-top: 15px;
 }
 
 
@@ -137,20 +146,20 @@ a.nav-link {
     font-weight: 800;
     font-size: 36px;
     line-height: 40px;
-    text-align: center;
+    text-align: center !important;
     color: #516BEB !important;
     background-color: #EDD2F3 !important;
-    border-radius: 25px;
-    border: 5px solid #516BEB;
+    border-radius: 25px !important;
+    border: 5px solid #516BEB !important;
     padding: 5px 50px;
 }
 
 
-.buymedia {
+/* .buymedia {
 
     border-radius: 15px 35px 15px 15px;
     height: 120px;
-}
+} */
 
 .buymedia img {
     width: 59px;
@@ -712,8 +721,8 @@ a.nav-link {
 }
 
 .delivery-img {
-    padding-bottom: 58px;
-    height: 633px;
+    padding-bottom: 68px;
+    height: 625px;
 
 }
 
@@ -722,12 +731,12 @@ a.nav-link {
 }
 
 .bs-btn {
-    border: 5px solid #1352F4;
-    border-color: #1352F4;
+    border: 5px solid #1352F4 !important;
+    border-color: #1352F4 !important;
     margin: 0;
     padding: 0;
     border-radius: 25px;
-    color: #fff;
+    color: #fff !important;
 
 }
 
@@ -736,7 +745,7 @@ a.nav-link {
 }
 
 .bg-btn {
-    background-color: #1352F4;
+    background-color: #1352F4 !important;
     border-radius: 14px;
     padding: 5px 10px;
     margin-left: -1px;
@@ -774,12 +783,11 @@ a.nav-link {
         line-height: 15px;
     }
 
-
-
     /*---------------------------------------------------------------------------------------  */
     /* Another page Buy */
     .buyservcard {
         margin-top: 10px;
+        height: 170px;
     }
 
     /* --   pay method -- */
@@ -809,7 +817,9 @@ a.nav-link {
         width: 40px;
         height: 40px;
     }
-
+    .top-rt-img {
+        height: unset;
+    }
     .delivery-service-title {
         font-size: 21px;
         line-height: 31px;
@@ -861,8 +871,25 @@ a.nav-link {
         line-height: 20px;
         text-align: justify;
         letter-spacing: 0em;
+        width: 100%;
 
 
+    }
+    .serv-img-1 {
+        background-size: contain;
+        padding-left: 20px;  
+    }
+    .serv-img-2 {
+        background-size: contain;
+        padding-left: 20px;  
+    }
+    .serv-img-3 {
+        background-size: contain;
+        padding-left: 20px;  
+    }
+    .serv-img-4 {
+        background-size: contain;
+        padding-left: 20px;  
     }
 
     /* buy card */
@@ -943,7 +970,10 @@ a.nav-link {
     .onpurchase {
         width: 100%;
     }
-
+    .buyservcard {
+        margin-top: 10px;
+        height: 250px;
+    }
 
 }
 
@@ -961,7 +991,11 @@ a.nav-link {
     .buymedia {
         margin: 5px;
     }
-
+    .buyservcard {
+        padding: 50px;
+        margin-top: 10px;
+        height: auto;
+    }
     /* buy card */
     .buy-headline {
 
